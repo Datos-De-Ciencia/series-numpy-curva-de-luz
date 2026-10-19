@@ -1,0 +1,23 @@
+[project]
+name = "series-numpy-curva-de-luz"
+version = "0.1.0"
+description = "Serie de NumPy de Datos de Ciencia: una curva de luz de TESS construida desde cero"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel",
+    "matplotlib",
+    "numpy>=2.0",
+]
+
+[project.optional-dependencies]
+# Only needed to rebuild data/ from the original TESS file (prepare_data.py)
+prep = ["lightkurve>=2.6"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+# Installs plot_helpers.py so any notebook can `from plot_helpers import ...`
+py-modules = ["plot_helpers"]
