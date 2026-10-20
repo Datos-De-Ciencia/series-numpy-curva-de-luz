@@ -57,8 +57,8 @@ a tu IA de confianza y seguir aprendiendo más allá del video.
 
 Necesitas Python 3.12 o más reciente. Si no tienes nada instalado, estos videos del canal te guían:
 
-- [Instalación de UV](https://youtu.be/YzOLOlH1jQk?si=2hFk6aAh8gCoMvuo)
-- [Cómo instalar Conda (Miniconda)](https://youtu.be/TJor7z8g8FA?si=7-VUSQJiew6Hu_gW)
+- [Instalación de UV](https://youtu.be/TJor7z8g8FA?si=QT2XVKeC29dYyDts)
+- [Cómo instalar Anaconda y Jupyter](https://youtu.be/YzOLOlH1jQk?si=2hFk6aAh8gCoMvuo)
 - [VS Code + Jupyter Notebooks](https://youtu.be/rL1usXq4bgE?si=2b5REnUzVBMDxWfF)
 
 ### Opción 1: con UV (recomendada)
@@ -86,13 +86,21 @@ Sin Conda, lo mismo funciona dentro de cualquier ambiente virtual de Python con 
 
 ### Comprobar que todo funciona
 
-Desde la carpeta del repositorio:
+Desde la carpeta del repositorio.
+
+**Con UV:**
 
 ```bash
 uv run python -c "import numpy as np; print(np.load('data/flux_cube.npy').shape)"
 ```
 
-(Con Conda o pip, con el ambiente activado: `python -c "..."`.) Debe imprimir `(1440, 11, 11)`.
+**Con Conda o pip** (con el ambiente activado):
+
+```bash
+python -c "import numpy as np; print(np.load('data/flux_cube.npy').shape)"
+```
+
+En los dos casos debe imprimir `(1440, 11, 11)`.
 
 ### Abrir los notebooks
 
