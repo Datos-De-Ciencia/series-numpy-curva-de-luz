@@ -10,9 +10,9 @@ módulo para graficar.
 
 ## Antes de empezar
 
-Solo necesitas **Python básico**: listas, bucles `for`, funciones. Si te falta, empieza por
-[Fundamentos de Python](https://github.com/Datos-De-Ciencia/fundamentos-de-python), el material
-introductorio del canal.
+Solo necesitas **Python básico**: listas, bucles `for`, funciones. Si te falta, empieza por el video
+[Introducción a Python](https://youtu.be/EZYPjmSQuQk) del canal y su notebook,
+[Fundamentos de Python](https://github.com/Datos-De-Ciencia/fundamentos-de-python).
 
 ## Los datos
 
@@ -42,7 +42,7 @@ Un notebook por video, en `notebooks/`. Se agregan a medida que se publican los 
 | # | Tema | Notebook | Video |
 |---|---|---|---|
 | 1 | Por qué arrays + `np.load` | [`01-por-que-arrays.ipynb`](notebooks/01-por-que-arrays.ipynb) | Enlace próximamente |
-| 2 | Forma, ejes y `dtype` | Próximamente | Próximamente |
+| 2 | Forma, ejes y `dtype` | [`02-forma-ejes-dtype.ipynb`](notebooks/02-forma-ejes-dtype.ipynb) | Enlace próximamente |
 | 3 | Indexación | Próximamente | Próximamente |
 | 4 | Copias y vistas | Próximamente | Próximamente |
 | 5 | Ufuncs y agregaciones: aparece la curva de luz | Próximamente | Próximamente |
