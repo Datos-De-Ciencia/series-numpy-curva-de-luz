@@ -41,8 +41,8 @@ Un notebook por video, en `notebooks/`. Se agregan a medida que se publican los 
 
 | # | Tema | Notebook | Video |
 |---|---|---|---|
-| 1 | Por qué arrays + `np.load` | [`01-por-que-arrays.ipynb`](notebooks/01-por-que-arrays.ipynb) | Enlace próximamente |
-| 2 | Forma, ejes y `dtype` | [`02-forma-ejes-dtype.ipynb`](notebooks/02-forma-ejes-dtype.ipynb) | Enlace próximamente |
+| 1 | Por qué arrays + `np.load` | [`01-por-que-arrays.ipynb`](notebooks/01-por-que-arrays.ipynb) | [Ver](https://youtu.be/dcNaKCuueAg) |
+| 2 | Forma, ejes y `dtype` | [`02-forma-ejes-dtype.ipynb`](notebooks/02-forma-ejes-dtype.ipynb) | [Ver](https://youtu.be/oAj6Ftx230g) |
 | 3 | Indexación | Próximamente | Próximamente |
 | 4 | Copias y vistas | Próximamente | Próximamente |
 | 5 | Ufuncs y agregaciones: aparece la curva de luz | Próximamente | Próximamente |
