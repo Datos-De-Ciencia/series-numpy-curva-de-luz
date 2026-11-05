@@ -43,7 +43,7 @@ Un notebook por video, en `notebooks/`. Se agregan a medida que se publican los 
 |---|---|---|---|
 | 1 | Por qué arrays + `np.load` | [`01-por-que-arrays.ipynb`](notebooks/01-por-que-arrays.ipynb) | [Ver](https://youtu.be/dcNaKCuueAg) |
 | 2 | Forma, ejes y `dtype` | [`02-forma-ejes-dtype.ipynb`](notebooks/02-forma-ejes-dtype.ipynb) | [Ver](https://youtu.be/oAj6Ftx230g) |
-| 3 | Indexación | Próximamente | Próximamente |
+| 3 | Indexación | [`03-indexacion.ipynb`](notebooks/03-indexacion.ipynb) | Enlace próximamente |
 | 4 | Copias y vistas | Próximamente | Próximamente |
 | 5 | Ufuncs y agregaciones: aparece la curva de luz | Próximamente | Próximamente |
 | 6 | Broadcasting | Próximamente | Próximamente |
@@ -124,6 +124,8 @@ from plot_helpers import plot_frame, plot_light_curve
 plot_frame(cube[0])                    # una foto de la estrella
 plot_frame(cube[0], mask=mask)         # ...con los píxeles de la estrella marcados
 plot_frame(cube[0], highlight=(5, 5))  # ...con un píxel (fila, columna) resaltado en rojo
+plot_frame([cube[0], cube[1]], title=["Foto 0", "Foto 1"])  # ...varias imágenes lado a lado, con la misma escala
+plot_frame(cube[0], scale="sqrt")      # ...resaltando los valores bajos, como el fondo del cielo
 plot_light_curve(time, brightness)     # el brillo a lo largo del tiempo
 ```
 
