@@ -46,7 +46,7 @@ Un notebook por video, en `notebooks/`. Se agregan a medida que se publican los 
 | 3 | Indexación | [`03-indexacion.ipynb`](notebooks/03-indexacion.ipynb) | [Ver](https://youtu.be/nd_X1amVKjk) |
 | 4 | Copias y vistas | [`04-copias-vistas.ipynb`](notebooks/04-copias-vistas.ipynb) | [Ver](https://youtu.be/QMNFOZYdMZw) |
 | 5 | Ufuncs y agregaciones: aparece la curva de luz | [`05-ufuncs-agregaciones.ipynb`](notebooks/05-ufuncs-agregaciones.ipynb) | Enlace próximamente |
-| 6 | Broadcasting | Próximamente | Próximamente |
+| 6 | Broadcasting | [`06-broadcasting.ipynb`](notebooks/06-broadcasting.ipynb) | Enlace próximamente |
 | 7 | Datos faltantes | Próximamente | Próximamente |
 | 8 | Números aleatorios | Próximamente | Próximamente |
 
